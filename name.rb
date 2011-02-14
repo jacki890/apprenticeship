@@ -1,4 +1,11 @@
 puts 'Hello there, and what\'s your name?'
 name = gets.chomp
-puts 'Your name is ' + name + '? What a lovely name!'
-puts 'Pleased to meet you, ' + name + '. :)'
+puts 'Hello, ' + name + '.'
+
+if name == 'Jacki'
+  puts 'What a lovely name!'
+else
+  if name == 'Mike'
+    puts 'What a lovely name!'
+  end
+end
