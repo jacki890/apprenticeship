@@ -1,10 +1,10 @@
 you_say = 'whatever you want'
 
-while you_say != 'bye'.downcase
+while you_say != 'BYE'
   puts 'Say something to your grandma.'
   you_say = gets.chomp
 
-  if you_say == you_say.downcase
+  if you_say != you_say.upcase
     puts 'WHAT WAS THAT?!? SPEAK UP, SONNY!'
     puts
   elsif you_say == you_say.upcase
