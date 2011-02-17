@@ -16,7 +16,7 @@ while bye < 3
   end
 
   elsif you_say == you_say.upcase
-    puts 'Well, no. Not since ' + (rand(21) + 1930).to_s + '! Cheeky!!'
+    puts 'Well, no. Not since ' << (rand(21) + 1930).to_s << '! Cheeky!!'
     bye = 0
   else 
     puts 'WHAT WAS THAT?!? SPEAK UP, SONNY!'
